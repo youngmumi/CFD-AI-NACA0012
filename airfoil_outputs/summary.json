@@ -1,0 +1,37 @@
+{
+  "Detected Columns": {
+    "Alpha": "Alpha",
+    "CL": "Cl",
+    "CD": "Cd"
+  },
+  "Dataset size (after cleaning)": 2051,
+  "Split": {
+    "test_size": 0.2,
+    "val_size": 0.2
+  },
+  "CL Metrics (MLP)": {
+    "RMSE": 0.01741122881252076,
+    "MAE": 0.009979092261686332,
+    "R2": 0.9992358688066785
+  },
+  "CD Metrics (XGBoost)": {
+    "RMSE": 0.0005523271804052156,
+    "MAE": 0.00028540433974886745,
+    "R2": 0.9989721721628703
+  },
+  "Saved Models": {
+    "CL": "./airfoil_outputs\\mlp_cl.joblib",
+    "CD": "./airfoil_outputs\\xgb_cd.joblib"
+  },
+  "Saved Predictions CSV": "./airfoil_outputs\\test_predictions.csv",
+  "Saved Plots": [
+    "scatter_aoa_cl.png",
+    "scatter_aoa_cd.png",
+    "parity_cl.png",
+    "parity_cd.png",
+    "cl_true_vs_pred_scatter.png",
+    "cd_true_vs_pred_scatter.png",
+    "mlp_cl_train_loss_curve.png",
+    "mlp_cl_val_score_curve.png"
+  ]
+}
